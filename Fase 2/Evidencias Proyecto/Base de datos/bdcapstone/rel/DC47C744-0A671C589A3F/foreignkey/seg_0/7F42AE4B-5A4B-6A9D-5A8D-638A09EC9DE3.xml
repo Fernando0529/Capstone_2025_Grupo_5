@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7F42AE4B-5A4B-6A9D-5A8D-638A09EC9DE3" containerWithKeyObject="984051DD-A4A8-A9AE-F9CC-72C0F616D031" localFKIndex="A6412A87-B03F-9C05-5BC1-EDAD6A6B6682" name="LLAMADA_CLASIFI_LLAM_FK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>2736A48A-6AF8-5749-770E-5D2A3555277E</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<referredTableLongName>CLASIFI_LLAM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>87F87A91-43C4-6AF8-3346-AD6B45CDBF01</referredTableID>
+<keyObject>AD62943B-C228-6B48-BA68-8A35F9E62566</keyObject>
+<referredKeyID>AD62943B-C228-6B48-BA68-8A35F9E62566</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Clasifi_Llam</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

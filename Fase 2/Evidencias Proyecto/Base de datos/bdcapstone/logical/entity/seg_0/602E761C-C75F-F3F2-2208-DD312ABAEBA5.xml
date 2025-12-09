@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="602E761C-C75F-F3F2-2208-DD312ABAEBA5" name="USUARIO">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 02:52:44 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>USU</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Usuario" id="967832D2-C706-DA04-D218-BD6BE66D2230">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 02:52:58 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario" id="CCDBE977-85DB-D4D9-3457-A7CA72C0532A">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 02:54:43 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clave" id="BF3B9C06-1C94-0974-458D-E87DAA18A62A">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 02:54:59 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_usuario" id="AE346F38-FA4C-BEF9-035A-3386EAC2A7F9">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 02:55:33 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_supervisor" id="87C380D4-C829-B3D9-EB98-3A6BA89A7FFB">
+<createdBy>ferna</createdBy>
+<createdTime>2025-12-09 16:47:48 UTC</createdTime>
+<generatorID>D2EC8304-D385-A2A2-0A32-DB0DEFB97FFA</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<referedAttribute>F9C87E4B-0E1C-13D2-5EBE-3E41123B5356</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_ejecutivo" id="BBF35E24-F4B3-B60B-439C-5B4E90AAB99E">
+<createdBy>ferna</createdBy>
+<createdTime>2025-12-09 16:47:57 UTC</createdTime>
+<generatorID>16D731C5-AADE-370E-116C-6E217607C68C</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<referedAttribute>54EEB900-7838-F702-6C91-A5A660D1CA86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA045AAA-8E64-88E8-93A8-546DB791D313" name="USUARIO PK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 02:54:41 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>967832D2-C706-DA04-D218-BD6BE66D2230</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

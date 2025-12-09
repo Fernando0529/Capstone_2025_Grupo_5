@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17C043E1-29F6-676D-8D49-F692CCA9ABE0" name="MENSAJES">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:05:03 UTC</createdTime>
+<generatorID>8CEA5B4E-C429-ED38-AE6F-578C31E0E44F</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<abbreviation>MEN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Mensaje" id="3B58A57A-7713-A7A6-8A27-00CCCC0B1B36">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:05:03 UTC</createdTime>
+<generatorID>0CBB8EE5-4C5A-C6B0-A344-518F54F2B1E2</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mensaje" id="80916FDB-F290-56CF-9550-47F0D9789E40">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:05:03 UTC</createdTime>
+<generatorID>5095CC64-3449-A464-31CF-721A2C27F87F</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Envio" id="4BF1DEE2-A138-8F5D-71CB-E0527CEB7C91">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:05:03 UTC</createdTime>
+<generatorID>9DA346AB-3583-A5D6-C7BD-1A208D7C600C</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Leido" id="4EAA1FCE-4717-347B-65E1-3E2F40B3FB87">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:05:03 UTC</createdTime>
+<generatorID>D1061492-CF00-42A3-A4D4-848F688E0A11</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_Id_Usuario" id="B9ADC857-B5C9-12D3-DD19-44189CD9437F">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:05:03 UTC</createdTime>
+<generatorID>9FFAC03D-0F5C-2BD3-3823-4615984C8373</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27C8FEBC-E31F-FC0B-5271-13FDB6FCCCFF" referredColumn="1CEE4E39-08AA-0B25-A613-ADDC8B94B82B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBC5FBE6-FCE5-E6AD-E01C-643B50A6F46A" name="MENSAJES_PK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:05:03 UTC</createdTime>
+<generatorID>49FC2870-D4B1-EA09-6653-08EAECC2E6F2</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B58A57A-7713-A7A6-8A27-00CCCC0B1B36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D837EAE-7E08-7023-38D1-237733A1795D" name="MENSAJES_USUARIO_FK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:05:03 UTC</createdTime>
+<generatorID>85A31A2D-16C2-0405-72D6-EAA836317946</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9ADC857-B5C9-12D3-DD19-44189CD9437F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

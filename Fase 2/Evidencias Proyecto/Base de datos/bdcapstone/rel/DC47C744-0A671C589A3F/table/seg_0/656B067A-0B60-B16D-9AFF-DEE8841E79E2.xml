@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="656B067A-0B60-B16D-9AFF-DEE8841E79E2" name="USUARIO">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:05:03 UTC</createdTime>
+<generatorID>602E761C-C75F-F3F2-2208-DD312ABAEBA5</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<abbreviation>USU</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Usuario" id="1CEE4E39-08AA-0B25-A613-ADDC8B94B82B">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:05:03 UTC</createdTime>
+<generatorID>967832D2-C706-DA04-D218-BD6BE66D2230</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario" id="24E16D76-D403-FB04-6E4F-15A51D860CEF">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:05:03 UTC</createdTime>
+<generatorID>CCDBE977-85DB-D4D9-3457-A7CA72C0532A</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clave" id="B247EEAE-AF82-DA67-A919-A92D5A0E604E">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:05:03 UTC</createdTime>
+<generatorID>BF3B9C06-1C94-0974-458D-E87DAA18A62A</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_usuario" id="3A5F01BE-6558-AC21-4103-3E569A7F3FC5">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:05:03 UTC</createdTime>
+<generatorID>AE346F38-FA4C-BEF9-035A-3386EAC2A7F9</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DAA00BBE-C378-8BAA-D2CD-39D2CB3B3ED2" name="USUARIO_PK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:05:03 UTC</createdTime>
+<generatorID>EA045AAA-8E64-88E8-93A8-546DB791D313</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CEE4E39-08AA-0B25-A613-ADDC8B94B82B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

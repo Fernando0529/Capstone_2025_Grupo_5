@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59AC4A27-D9E7-4E1D-409E-053CC61AC5AC" name="PALABRAS_CLAVES">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>656CC607-F90F-9F94-552A-B9ACBAE20BC7</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<abbreviation>PALCLAV</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Palabras_Claves" id="F3253E02-8FB9-23A1-457A-81931FE6C635">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>D00F64AF-F05F-4F17-7A38-B44AB4D951D6</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Palabras" id="3BEF6EC4-F521-8603-77E4-9C9A5F898CCE">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>BD6D8AB6-44E5-F4BC-86F7-0AE4C0DED1A0</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="865AFA8D-E796-914E-E0DE-31B545EBAD03" name="PALABRAS_CLAVES_PK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>321D6AA4-B282-37CB-4862-760F60F4BA02</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3253E02-8FB9-23A1-457A-81931FE6C635"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

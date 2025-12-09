@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35022A23-DD0F-1EA2-9A5E-52DDC61A3DD4" name="CLIENTE">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 00:40:10 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>CLI</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_cliente" id="4EB21DFB-81FC-C146-148E-1597C1BACAEB">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 00:40:10 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rut_Cliente" id="FB9604FC-EF0E-8B3C-632F-D45A5E867866">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 00:40:10 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Digito_Verificador" id="31B5F130-4900-DBCB-05FA-F7D9D8D4AD65">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 00:40:10 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_Cliente" id="021ACE25-9782-F58E-6E2D-6DF11C22EABE">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 00:40:10 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido_Cliente" id="0D5677D6-5140-CDA5-0112-1745C7C91B32">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 00:40:10 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C28F8942-ADC0-CE05-4DB8-1AF579FD32D2" name="EJECUTIVOS PK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 00:40:10 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4EB21DFB-81FC-C146-148E-1597C1BACAEB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C51B581B-BC26-08E7-A7ED-2B0E29917999" name="EJECUTIVO">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 00:36:04 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>EJE</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_ejecutivo" id="54EEB900-7838-F702-6C91-A5A660D1CA86">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 00:37:29 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rut_Ejecutivo" id="7006C034-A298-275A-CC8F-95826E975CFD">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 00:38:40 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Digito_Verificador" id="E7154A14-4A67-AFE9-7888-5C61247CABB3">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 00:39:28 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_Ejecutivo" id="A25E0354-A6C1-F33D-3C84-833826BD3DC9">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 00:37:59 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido_Ejecutivo" id="05F37AAA-2096-C957-602D-33048D89A73E">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 00:38:21 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Tipo_Cargo" id="18FF4D6A-8FC5-1911-1F85-BB59B17037E6">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 01:25:20 UTC</createdTime>
+<generatorID>FF40E3D8-1ACB-37EE-5678-78A35C94E07A</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B78ED099-AF62-3EB6-202D-953787C387B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="915A7AAB-E8F7-1916-3AA9-7C0FEF1ABD35" name="EJECUTIVOS PK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 00:37:58 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>54EEB900-7838-F702-6C91-A5A660D1CA86</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

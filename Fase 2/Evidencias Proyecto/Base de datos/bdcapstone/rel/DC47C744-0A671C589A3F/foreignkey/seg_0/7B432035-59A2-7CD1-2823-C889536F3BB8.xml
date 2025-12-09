@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7B432035-59A2-7CD1-2823-C889536F3BB8" containerWithKeyObject="984051DD-A4A8-A9AE-F9CC-72C0F616D031" localFKIndex="F8D21258-580D-D170-92AC-61F58C1ACC01" name="LLAMADA_EJECUTIVO_FK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>D55E5500-1BA2-C373-216A-F6D598949A2B</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<referredTableLongName>EJECUTIVO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D6EC8B68-BA0C-BF61-AB19-F582A6F27C06</referredTableID>
+<keyObject>94756405-2193-F0AD-5EB4-7AC79400BB1B</keyObject>
+<referredKeyID>94756405-2193-F0AD-5EB4-7AC79400BB1B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_ejecutivo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

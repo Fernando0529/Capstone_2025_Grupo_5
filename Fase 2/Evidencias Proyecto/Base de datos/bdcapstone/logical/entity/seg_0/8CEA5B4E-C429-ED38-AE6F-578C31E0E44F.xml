@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CEA5B4E-C429-ED38-AE6F-578C31E0E44F" name="MENSAJES">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:01:30 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>MEN</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Mensaje" id="0CBB8EE5-4C5A-C6B0-A344-518F54F2B1E2">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:01:38 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mensaje" id="5095CC64-3449-A464-31CF-721A2C27F87F">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:02:12 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Envio" id="9DA346AB-3583-A5D6-C7BD-1A208D7C600C">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:02:47 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Leido" id="D1061492-CF00-42A3-A4D4-848F688E0A11">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:03:16 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Destinatario_id" id="3241BC2C-7757-92E6-EF2B-05E0BEF6DF5A">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:10:25 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Remitente_id" id="9FE5C146-43F1-C0A9-49F4-1E7A74FF17E5">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:17:06 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Usuario" id="73AACDEE-4E89-AE20-0FAB-93F1078FD50F">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:17:43 UTC</createdTime>
+<generatorID>2FD1109F-0FD8-7D03-94B7-494912E64BA2</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<referedAttribute>967832D2-C706-DA04-D218-BD6BE66D2230</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Usuario1" id="58D7640C-A3BA-A313-493C-101C926E6102">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:17:57 UTC</createdTime>
+<generatorID>9909FA0D-883E-C0D2-DB35-2D2720F837DB</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<referedAttribute>967832D2-C706-DA04-D218-BD6BE66D2230</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="49FC2870-D4B1-EA09-6653-08EAECC2E6F2" name="MENSAJES PK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-11-17 03:02:08 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0CBB8EE5-4C5A-C6B0-A344-518F54F2B1E2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

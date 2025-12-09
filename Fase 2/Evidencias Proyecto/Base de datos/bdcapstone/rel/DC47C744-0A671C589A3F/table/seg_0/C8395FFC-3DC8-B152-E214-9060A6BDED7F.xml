@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8395FFC-3DC8-B152-E214-9060A6BDED7F" name="SUPERVISOR">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>B8AA3475-1772-F83B-79DD-03E4160E3DC3</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<abbreviation>SUP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_supervisor" id="10CA443A-D6E9-D490-5AAA-C022533DD865">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>F9C87E4B-0E1C-13D2-5EBE-3E41123B5356</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rut_Supervisor" id="6E55A46B-9BC7-9416-AE06-D96FEDFC5977">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>216B3DC5-98E6-910B-6548-8570A349A0C5</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Digito_Verificador" id="48D529B9-1037-6DE3-2563-9FE811215885">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>A92A0C13-1A3C-6E69-47EF-F1CBD7950AE2</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Supervisor" id="B43ACBFC-B554-6E31-EAD3-8710E00E3657">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>91806421-99A6-F02D-CF3A-252C66BEA130</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido_Supervisor" id="4AD95F41-1C3F-F3D2-9FC8-A253F1C9000A">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>AA6A13D0-5F1D-AB78-E22A-7217CEE3380A</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="931F887A-D95D-D15E-723F-332B056E22C7" name="SUPERVISOR_PK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>0308DD4F-736B-B3C8-9218-E58A614BE44A</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10CA443A-D6E9-D490-5AAA-C022533DD865"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

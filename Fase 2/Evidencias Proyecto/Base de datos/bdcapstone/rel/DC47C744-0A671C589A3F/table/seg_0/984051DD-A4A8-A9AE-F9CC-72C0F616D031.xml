@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="984051DD-A4A8-A9AE-F9CC-72C0F616D031" name="LLAMADA">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>20F7CC48-A20C-D834-7DD0-BD75470E4946</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<abbreviation>LLAM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Llamadas" id="22581195-9DAA-5C5C-57C1-AD143DA5642B">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>3B806837-0DAF-F1D7-99BF-DF25F79C3FF6</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="10B54A53-BB61-0714-B363-2F90A57199E2">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>435172FA-B3D9-F5BF-4F06-21FB3FF46974</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora" id="59226361-B358-0DD4-C6FD-43538775B117">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>07868C6D-11AC-10FB-AAF0-7AD47A43E224</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EJECUTIVO_Id_ejecutivo" id="318725D7-1739-B822-FD9C-EC134A096862">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>72CF1FB6-075A-724C-458B-469A8F4D719F</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B432035-59A2-7CD1-2823-C889536F3BB8" referredColumn="C60B5B0A-770B-A9FA-9285-62405B1DFA8A"/>
+</associations>
+</Column>
+<Column name="CLIENTE_Id_cliente" id="D0304F4C-7617-441F-E75D-6244CC2ED552">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>08101FA4-993A-E1E6-0498-7F6959DF8481</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D243C3EA-4D00-E617-EAA1-CEA89BBC8C43" referredColumn="B94BBFA3-04B5-1860-0963-78C27E65F812"/>
+</associations>
+</Column>
+<Column name="SUPERVISOR_Id_supervisor" id="2F6DD984-CE38-2299-72F3-9D3AE90531AD">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>A69C3E90-9973-B0BA-26DF-865C965E9476</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D7E54AF-F3E9-C5CE-8D36-8AC2C7A681CB" referredColumn="10CA443A-D6E9-D490-5AAA-C022533DD865"/>
+</associations>
+</Column>
+<Column name="CLASIFI_LLAMADA_Id_Clasifi_Llam" id="84828E42-109F-9B9B-AF83-74F4C3BF1737">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>3F91B2C9-F654-3491-D1CD-A52860949457</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F42AE4B-5A4B-6A9D-5A8D-638A09EC9DE3" referredColumn="C44862EA-1FD2-E39F-C152-5EA8E4658E49"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="817BB397-EA25-7F6C-C951-83C8478C6E3C" name="LLAMADA_PK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>877DD0FE-EC2B-07B3-B324-1701D1DDBC67</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22581195-9DAA-5C5C-57C1-AD143DA5642B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8D21258-580D-D170-92AC-61F58C1ACC01" name="LLAMADA_EJECUTIVO_FK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>D55E5500-1BA2-C373-216A-F6D598949A2B</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="318725D7-1739-B822-FD9C-EC134A096862"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D6BD197-8B9B-CABE-0784-B445DD7D339A" name="LLAMADA_CLIENTE_FK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>DBBA5A70-9E5C-FB10-0416-11BB60FDBFCC</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0304F4C-7617-441F-E75D-6244CC2ED552"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A25DD3D1-2D6D-334C-55E8-DA984036938C" name="LLAMADA_SUPERVISOR_FK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>2CA9DDD3-0082-53AD-79DB-B42F3E1C2965</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F6DD984-CE38-2299-72F3-9D3AE90531AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6412A87-B03F-9C05-5BC1-EDAD6A6B6682" name="LLAMADA_CLASIFI_LLAM_FK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>2736A48A-6AF8-5749-770E-5D2A3555277E</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84828E42-109F-9B9B-AF83-74F4C3BF1737"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

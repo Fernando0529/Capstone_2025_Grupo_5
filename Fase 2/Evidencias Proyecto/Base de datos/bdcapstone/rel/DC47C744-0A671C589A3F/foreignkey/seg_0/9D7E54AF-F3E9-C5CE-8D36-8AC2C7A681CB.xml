@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9D7E54AF-F3E9-C5CE-8D36-8AC2C7A681CB" containerWithKeyObject="984051DD-A4A8-A9AE-F9CC-72C0F616D031" localFKIndex="A25DD3D1-2D6D-334C-55E8-DA984036938C" name="LLAMADA_SUPERVISOR_FK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>2CA9DDD3-0082-53AD-79DB-B42F3E1C2965</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<referredTableLongName>SUPERVISOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C8395FFC-3DC8-B152-E214-9060A6BDED7F</referredTableID>
+<keyObject>931F887A-D95D-D15E-723F-332B056E22C7</keyObject>
+<referredKeyID>931F887A-D95D-D15E-723F-332B056E22C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_supervisor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

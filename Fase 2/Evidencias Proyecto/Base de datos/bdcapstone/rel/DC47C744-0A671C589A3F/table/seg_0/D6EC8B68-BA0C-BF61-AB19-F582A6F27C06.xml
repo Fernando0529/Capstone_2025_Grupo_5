@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6EC8B68-BA0C-BF61-AB19-F582A6F27C06" name="EJECUTIVO">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>C51B581B-BC26-08E7-A7ED-2B0E29917999</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<abbreviation>EJE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_ejecutivo" id="C60B5B0A-770B-A9FA-9285-62405B1DFA8A">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>54EEB900-7838-F702-6C91-A5A660D1CA86</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rut_Ejecutivo" id="974350EE-B577-B52E-E90C-8E9AE6140F93">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>7006C034-A298-275A-CC8F-95826E975CFD</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Digito_Verificador" id="5515036D-CC4C-B3CE-7CAB-1840F7B1A9C3">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>E7154A14-4A67-AFE9-7888-5C61247CABB3</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Ejecutivo" id="D874F9A3-729F-41CF-29B3-FA90EF677619">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>A25E0354-A6C1-F33D-3C84-833826BD3DC9</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido_Ejecutivo" id="5125C543-DD6C-B2CE-BE8D-4B6A1EB95186">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>05F37AAA-2096-C957-602D-33048D89A73E</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TCARGO_Id_Tipo_Cargo" id="A605A26B-2714-0BB7-BC28-A10D8F0D0750">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>18FF4D6A-8FC5-1911-1F85-BB59B17037E6</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89F4C9F3-3D60-EF7B-0F04-27EC312A2B4B" referredColumn="9E2A1BE5-E47D-9945-4EBF-F95DFF0225E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94756405-2193-F0AD-5EB4-7AC79400BB1B" name="EJECUTIVO_PK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>915A7AAB-E8F7-1916-3AA9-7C0FEF1ABD35</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C60B5B0A-770B-A9FA-9285-62405B1DFA8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="304F653F-DC0D-98FB-A708-3FC33FDB25A7" name="EJECUTIVO_TCARGO_FK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>FF40E3D8-1ACB-37EE-5678-78A35C94E07A</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A605A26B-2714-0BB7-BC28-A10D8F0D0750"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

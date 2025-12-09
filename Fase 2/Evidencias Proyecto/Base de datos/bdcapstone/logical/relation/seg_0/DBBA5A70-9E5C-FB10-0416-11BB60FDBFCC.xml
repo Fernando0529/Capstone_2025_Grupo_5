@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="DBBA5A70-9E5C-FB10-0416-11BB60FDBFCC">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 01:19:03 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<engineerTo>
+<item key="DC47C744-A7AC-00DA-E481-0A671C589A3F" value="true"/>
+</engineerTo>
+<sourcePk>C28F8942-ADC0-CE05-4DB8-1AF579FD32D2</sourcePk>
+<targetPk>877DD0FE-EC2B-07B3-B324-1701D1DDBC67</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>35022A23-DD0F-1EA2-9A5E-52DDC61A3DD4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>20F7CC48-A20C-D834-7DD0-BD75470E4946</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

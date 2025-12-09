@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="bdcapstone" id="02C18CF7-E44B-2F2F-642D-0CBA7D16CB4B" version="3.5">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 00:33:29 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>02C18CF7-E44B-2F2F-642D-0CBA7D16CB4B</designId>
+</OSDM_Design>

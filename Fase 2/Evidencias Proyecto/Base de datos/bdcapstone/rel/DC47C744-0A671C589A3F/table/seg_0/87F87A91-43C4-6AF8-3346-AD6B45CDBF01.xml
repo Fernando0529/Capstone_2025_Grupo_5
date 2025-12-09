@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87F87A91-43C4-6AF8-3346-AD6B45CDBF01" name="CLASIFI_LLAM">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>2CEA7831-6AA9-2A5B-E33E-3E1775DE08B5</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<ordsAlias>clasificacion_llamada</ordsAlias>
+<abbreviation>CLASLLAMA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Clasifi_Llam" id="C44862EA-1FD2-E39F-C152-5EA8E4658E49">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>CE807F6B-6186-F72F-2FDD-91B90120947C</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clasificacion" id="2F5F0D38-CD17-B04D-F62F-AE3AC77A7C0E">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>4E36B23D-D52B-6131-C222-FF16C36780BE</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD62943B-C228-6B48-BA68-8A35F9E62566" name="CLASIFI_LLAMADA_PK">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 03:02:26 UTC</createdTime>
+<generatorID>ACCA9C87-C958-0F4F-0735-A4B36DD41C10</generatorID>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C44862EA-1FD2-E39F-C152-5EA8E4658E49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="12169AB0-1ED7-D63B-DF79-199B2E2735C2" mainViewID="A3FA83AE-BE89-2B5D-B929-B1DDEFC317D1">
+<createdBy>ferna</createdBy>
+<createdTime>2025-10-15 00:33:29 UTC</createdTime>
+<ownerDesignName>bdcapstone</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
